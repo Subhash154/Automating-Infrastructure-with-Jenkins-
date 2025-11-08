@@ -15,7 +15,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url:'https://github.com/Subhash154/Automating-Infrastructure-with-Jenkins-.git'
+                git branch: 'main', url:'https://github.com/Subhash154/1st-DEVops-project-Automating-Infrastructure-with-Jenkins-.git'
             }
         }
         stage('Terraform init') {
